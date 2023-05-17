@@ -46,6 +46,8 @@ const preview: Preview = {
 		},
 		viewport: {
 			viewports: { ...CUSTOM_VIEWPORTS },
+			// TODO: This is not working.
+			defaultViewport: 'Mobile 375',
 		},
 	},
 }

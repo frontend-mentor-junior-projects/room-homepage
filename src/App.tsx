@@ -1,9 +1,7 @@
+import Main from 'components/Main'
+
 function App() {
-	return (
-		<main>
-			<h1>room homepage</h1>
-		</main>
-	)
+	return <Main />
 }
 
 export default App
